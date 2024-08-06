@@ -12,6 +12,7 @@ import {gs} from '../../../assets/styles/GlobalStyle';
 import {colors} from '../../../assets/styles/Colors';
 import InputText from '../../components/InputText';
 import NewsworthyItem from '../../components/NewsworthyItem';
+import BottomNav from '../../components/BottomNav';
 
 function Home(): JSX.Element {
   const navigation = useNavigation();
@@ -143,7 +144,7 @@ function Home(): JSX.Element {
           {renderNewsworthy()}
         </ScrollView>
       </View>
-      {/* <BottomNav/> */}
+      <BottomNav />
     </View>
   );
 }
